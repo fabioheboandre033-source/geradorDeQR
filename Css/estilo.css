@@ -1,0 +1,88 @@
+body {
+    background-color: linear-gradient(135deg, #667eea,#764ba2);
+    font-family: 'segoe UI' , sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+h1 {
+    color: #2c2e8a;
+    margin-bottom: 25px;
+}
+.input-grupo {
+    display: flex;
+    gap: 8px;
+}
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border:2px solid #ddd;
+    outline: none;
+}
+input:focus {
+    border-color: #667eea;
+}
+button.gerar-QR {
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    background: #2c2e8a;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+button#qr-generate:hover{
+    background: #1a1c6b;
+    transform: scale(1.05);
+}
+.paragrafo {
+    color: red;
+    height: 20px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.separada {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.separada img {
+    border-radius: 12px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.dowlond {
+    display: none;
+    width: 100%;
+    border: none;
+    background: #00c853;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+.dowlond:hover {
+    background: #00a344;
+}
+.de-momento {
+   border-radius: 12px;
+    padding: 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    width: 200px;
+}
